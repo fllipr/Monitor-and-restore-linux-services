@@ -11,7 +11,7 @@ Important: To receive alerts via Telegram, you need to create a bot and a group 
 
 Setting Up the Script
 
-For the script to work properly, add the following line to the end of /etc/crontab:
+For the script to work properly, add the following line to the end of /etc/crontab:<br>
 */5 * * * * root /etc/home/user/scriptlocation/monitorestartservice.sh service
 
 Replace scriptlocation with the directory where the script is located.
